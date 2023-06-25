@@ -33,3 +33,12 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# postgress
+POSTGRES_URL="postgres://default:jXJrc5ni4ZtU@ep-shiny-tooth-574723-pooler.eu-central-1.postgres.vercel-storage.com:5432/verceldb"
+POSTGRES_PRISMA_URL="postgres://default:jXJrc5ni4ZtU@ep-shiny-tooth-574723-pooler.eu-central-1.postgres.vercel-storage.com:5432/verceldb?pgbouncer=true&connect_timeout=15"
+POSTGRES_URL_NON_POOLING="postgres://default:jXJrc5ni4ZtU@ep-shiny-tooth-574723.eu-central-1.postgres.vercel-storage.com:5432/verceldb"
+POSTGRES_USER="default"
+POSTGRES_HOST="ep-shiny-tooth-574723-pooler.eu-central-1.postgres.vercel-storage.com"
+POSTGRES_PASSWORD="jXJrc5ni4ZtU"
+POSTGRES_DATABASE="verceldb"
