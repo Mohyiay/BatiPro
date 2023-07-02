@@ -3,10 +3,9 @@ import DefaultErrorPage from 'next/error';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import type { AppProps } from 'next/app';
 import { Analytics } from '@vercel/analytics/react';
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
@@ -14,8 +13,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     </>
   );
 }
-
-export default MyApp;
 
 import Meta from '@/components/Meta';
 import {
